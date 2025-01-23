@@ -1,0 +1,13 @@
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\bin\Debug\net8.0\ExamProject.Core.deps.json
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\bin\Debug\net8.0\ExamProject.Core.dll
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\bin\Debug\net8.0\ExamProject.Core.pdb
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.sourcelink.json
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.dll
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\refint\ExamProject.Core.dll
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.pdb
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ref\ExamProject.Core.dll
+C:\Users\II novbe\Desktop\ExamProject\ExamProject.Core\obj\Debug\net8.0\ExamProject.Core.csproj.AssemblyReference.cache

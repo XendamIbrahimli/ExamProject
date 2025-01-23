@@ -1,0 +1,43 @@
+﻿@using ExamProject.BL.ViewModels.AgentVM
+@model AgentUpdateVM
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4 w-100">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Update Agent</h6>
+        <a asp-action="Index" asp-controller="Agent" class="btn btn-outline-primary ml-auto">Agent List</a>
+    </div>
+    <div class="card-body">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Fullname">Fullname</label>
+                <input asp-for="Fullname" class="form-control">
+                <span asp-validation-for="Fullname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl">Photo</label>
+                <input asp-for="ImageUrl" class="form-control">
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-check">
+                <label asp-for="DesignationId">Designation</label>
+                <select asp-for="DesignationId" class="form-control">
+                    <option selected disabled>Select Designation</option>
+                    @if (ViewBag.Designations != null)
+                    {
+                        @foreach (var item in ViewBag.Designations)
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="DesignationId" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
